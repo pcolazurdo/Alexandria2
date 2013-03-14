@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" 
+                   assembly="AlexandriaCLI" 
+                   namespace="AlexandriaCLI.Domain">
+  
+  <class name="HashStore">
+    <id name="Id">
+      <generator class="guid" />
+    </id>
+    <property name="FileName" />
+    <property name="ParentName" />
+    <property name="FileSize" />
+    <property name="HashValue" />
+  </class>
+  
+</hibernate-mapping>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexandriaCLI", "ConsoleApplication1\AlexandriaCLI.csproj", "{F518B1BE-1771-4A59-B5DB-2F80B28191E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4A6AE2BD-0B6A-4B7C-93B3-CC24F479EEFF}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexandriaCLITest", "AlexandriaCLITest\AlexandriaCLITest.csproj", "{DD67C8ED-9D5E-467F-8C76-D52DFD822B68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F518B1BE-1771-4A59-B5DB-2F80B28191E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F518B1BE-1771-4A59-B5DB-2F80B28191E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F518B1BE-1771-4A59-B5DB-2F80B28191E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F518B1BE-1771-4A59-B5DB-2F80B28191E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD67C8ED-9D5E-467F-8C76-D52DFD822B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD67C8ED-9D5E-467F-8C76-D52DFD822B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD67C8ED-9D5E-467F-8C76-D52DFD822B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD67C8ED-9D5E-467F-8C76-D52DFD822B68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
