@@ -25,4 +25,5 @@ namespace AlexandriaCLITest
             _configuration.AddAssembly(typeof(HashStore).Assembly);
             _sessionFactory = _configuration.BuildSessionFactory();
         }
+    }
 }

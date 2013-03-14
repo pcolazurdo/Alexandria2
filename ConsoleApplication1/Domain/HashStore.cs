@@ -8,10 +8,10 @@ namespace AlexandriaCLI.Domain
 {
     public class HashStore
     {
-        public Guid Id { get; set; }
-        public string ParentName { get; set; }
-        public string FileName { get; set; }
-        public string HashValue { get; set; }
-        public int FileSize { get; set; }
+        public virtual Guid Id { get; set; }
+        public virtual string ParentName { get; set; }
+        public virtual string FileName { get; set; }
+        public virtual string HashValue { get; set; }
+        public virtual int FileSize { get; set; }
     }
 }
